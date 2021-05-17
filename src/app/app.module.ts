@@ -13,6 +13,8 @@ import { TranformedWishPipe } from './tranformed-wish.pipe';
 import { AdminModule } from './admin.module';
 import { ReactiveformBasicComponent } from './reactiveform-basic/reactiveform-basic.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,13 +26,15 @@ import { ReactiveFormsModule } from '@angular/forms';
     AdminComponent,
     LearnIfComponent,
     TranformedWishPipe,
-    ReactiveformBasicComponent
+    ReactiveformBasicComponent,
+    TemplateDrivenFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AdminModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
