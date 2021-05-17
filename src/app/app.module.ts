@@ -11,7 +11,11 @@ import { AdminComponent } from './admin/admin.component';
 import { LearnIfComponent } from './learn-if/learn-if.component';
 import { TranformedWishPipe } from './tranformed-wish.pipe';
 import { AdminModule } from './admin.module';
+
 import { ReactiveformBasicComponent } from './reactiveform-basic/reactiveform-basic.component';
+
+import { ReactiveFomrsComponent } from './reactive-fomrs/reactive-fomrs.component';
+
 import { ReactiveFormsModule } from '@angular/forms';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { FormsModule } from '@angular/forms';
@@ -27,7 +31,8 @@ import { FormsModule } from '@angular/forms';
     LearnIfComponent,
     TranformedWishPipe,
     ReactiveformBasicComponent,
-    TemplateDrivenFormComponent
+    TemplateDrivenFormComponent,
+    ReactiveFomrsComponent
   ],
   imports: [
     BrowserModule,
